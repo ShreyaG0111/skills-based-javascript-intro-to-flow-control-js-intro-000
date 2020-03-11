@@ -3,9 +3,6 @@ if (true) {
  age >=13 && age <=19
 }
 return ("You are a teenager")
-else {
-  undefined
-}
 }
 
 function teenager(age) {
