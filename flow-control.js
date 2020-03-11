@@ -1,10 +1,8 @@
 function basicTeenager(age) {
-if (age >= 13 && age <=19) // true{
-  return true
+if (age >= 13 && age <=19) // true
+  return basicTeenager('You are a teenager!') // true
 }
-basicTeenager('You are a teenager!') // true
-basicTeenager() // false
-}
+
 
 function teenager(age) {
   if (age >= 13 && age <=19) {
